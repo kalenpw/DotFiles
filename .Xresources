@@ -1,0 +1,81 @@
+! xterm
+XTerm*termName: xterm-256color
+
+xterm*background: #141414
+xterm*foreground: #aaaaaa
+xterm*faceName: Ubuntu Mono:size=14:antialias=true
+xterm*font: 7x13
+
+! Enabled modi
+rofi.modi: window,run,ssh
+! Window opacity
+!rofi.opacity: 90
+! Window width
+rofi.width: 15
+! Number of lines
+rofi.lines: 5
+! Number of columns
+rofi.columns: 1
+! Font to use
+rofi.font: San Francisco 10
+! Foreground color
+!rofi.fg: #999999
+! Background color
+!rofi.bg: #222222
+!! Foreground color for active row
+!rofi.fg-active: #268BD2
+!! Foreground color for urgent row
+!rofi.fg-urgent: #DC322F
+!! Foreground color for highlighted active row
+!rofi.hlfg-active: #FDF6E3
+!! Foreground color for highlighted urgent row
+!rofi.hlfg-urgent: #FDF6E3
+!! Background color for active row
+!rofi.bg-active: #FDF6E3
+!! Background color for urgent row
+!rofi.bg-urgent: #FDF6E3
+!! Background color for highlighted active row
+!rofi.hlbg-active: #268BD2
+!! Background color for highlighted urgent row
+!rofi.hlbg-urgent: #222222
+!! Background color for alternating row
+!rofi.bgalt: #222222
+!! Foreground color for highlighted row
+!rofi.hlfg: #222222
+!! Background color for highlighted row
+!rofi.hlbg: #666666
+!! Border color
+!rofi.bc: #000000
+! Use extended color scheme
+rofi.color-enabled: true
+! Color scheme for normal row
+!rofi.color-normal: argb: eefdf6e3, argb: ee002b36, argb: eeeee8d5, argb: ee586e75, argb: eeeee8d5
+!rofi.color-normal: argb: 00000000, #DEDEDE, argb: 00000000, #DEDEDE
+! Color scheme for urgent row
+!rofi.color-urgent: #fdf6e3,#dc322f,#eee8d5,#dc322f,#fdf6e3
+! Color scheme for active row
+!rofi.color-active: #fdf6e3,#268bd2,#eee8d5,#268bd2,#fdf6e3
+! Color scheme window
+!rofi.color-window: argb: EEfdf6e3, argb: EE002b36
+!rofi.color-window: argb: EE000000, argb: EE000000, argb: EE000000
+! Border width
+rofi.bw: 1
+! Location on screen
+rofi.location: 0
+! Padding
+rofi.padding: 5
+! Y-offset relative to location
+rofi.yoffset: 0
+! X-offset relative to location
+rofi.xoffset: 0
+
+
+! State:           'bg',           'fg',     'bgalt',        'hlbg',         'hlfg'
+rofi.color-normal: argb:001d1d1d,  #ffffff,  argb:001d1d1d,  argb:00000000,  #aa8cc5
+rofi.color-urgent: argb:77000000,  #ffffff,  argb:ff1d1d1d,  #dc322f,        #000000
+rofi.color-active: argb:771d1d1d,  #ffffff,  argb:ff1d1d1d,  #268bd2,        #000000
+
+!                  'background',   'border',       'separator'
+rofi.color-window: argb:ee1d1d1d,  argb:001d1d1d,  #000000
+
+

@@ -1,0 +1,10 @@
+imap jk <Esc>
+
+"4 spaces tabs and expand tab to spaces
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+"save and load folds on close/load
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
