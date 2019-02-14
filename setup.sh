@@ -15,6 +15,9 @@ sudo ln -s /home/kalenpw/Documents/Config/.face /home/kalenpw/.face
 rm /home/kalenpw/.ideavimrc
 sudo ln -s /home/kalenpw/Documents/Config/.ideavimrc /home/kalenpw/.ideavimrc
 
+rm /home/kalenpw/.inputrc
+sudo ln -s /home/kalenpw/Documents/Config/.inputrc /home/kalenpw/.inputrc
+
 rm /home/kalenpw/.profile
 sudo ln -s /home/kalenpw/Documents/Config/.profile /home/kalenpw/.profile
 
