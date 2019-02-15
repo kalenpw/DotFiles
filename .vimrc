@@ -1,4 +1,5 @@
 "filetype off before vundle
+"test
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 
