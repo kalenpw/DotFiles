@@ -33,6 +33,15 @@ sudo ln -s $configDir/.xinitrc /home/kalenpw/.xinitrc
 rm /home/kalenpw/.Xresources
 sudo ln -s $configDir/.Xresources /home/kalenpw/.Xresources
 
+#themes
+
+sudo rm -rf /usr/share/themes/Equilux
+sudo cp -r $configDir/Equilux /usr/share/themes/Equilux
+
+sudo rm -rf /usr/share/icons/Ultra-Flat
+sudo cp -r $configDir/Ultra-Flat /usr/share/icons/Ultra-Flat
+
+
 
 
 
