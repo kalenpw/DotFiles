@@ -1,5 +1,4 @@
 "filetype off before vundle
-"test
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 
@@ -54,9 +53,6 @@ set expandtab
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview
 
-" Don't auto comment new lines
-set formatoptions-=cro
-
 "Use system clipboard
 set clipboard=unnamedplus
 
@@ -69,8 +65,8 @@ let mapleader = " "
 "Align comments to left
 let g:NERDDefaultAlign = 'left'
 
+" quit editing and sourcing of vim
 nnoremap <leader>ev :split $MYVIMRC<cr>
-
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 "clear buffer abbreviations
@@ -86,3 +82,9 @@ augroup END
 "mispellings
 iabbrev seperate separate
 iabbrev teh the
+
+" Don't auto comment new lines
+set formatoptions-=cro
+" this is a kludge to get this working
+autocmd FileType * set formatoptions-=cro
+
