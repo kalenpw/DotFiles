@@ -116,21 +116,21 @@ set $workspace13 "p &#xf001;"
 #editor
 set $workspace11 "i &#xf044;"
 
-#DVI-0 = 1440p
-#DVI-1 = 1080 flipped hp
-workspace $workspace1 output DVI-0
-workspace $workspace2 output DVI-0
-workspace $workspace3 output DVI-0
-workspace $workspace4 output DVI-0
-workspace $workspace5 output DVI-0
-workspace $workspace6 output DVI-0
-workspace $workspace7 output DVI-0
-workspace $workspace8 output DVI-0
-workspace $workspace9 output DVI-1
-workspace $workspace0 output DVI-1
-workspace $workspace11 output DVI-1 
-workspace $workspace12 output DVI-1 
-workspace $workspace13 output DVI-1
+#DVI-D-0 = 1440p
+#DVI-D-1 = 1080 flipped hp
+workspace $workspace1 output DVI-D-0
+workspace $workspace2 output DVI-D-0
+workspace $workspace3 output DVI-D-0
+workspace $workspace4 output DVI-D-0
+workspace $workspace5 output DVI-D-0
+workspace $workspace6 output DVI-D-0
+workspace $workspace7 output DVI-D-0
+workspace $workspace8 output DVI-D-0
+workspace $workspace9 output DVI-D-1
+workspace $workspace0 output DVI-D-1
+workspace $workspace11 output DVI-D-1 
+workspace $workspace12 output DVI-D-1 
+workspace $workspace13 output DVI-D-1
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -216,10 +216,11 @@ hide_edge_borders both
 
 #Big bar
 bar {
-    output DVI-0
+    output DVI-D-0
     tray_output none
     status_command /home/kalenpw/Documents/ShellScripts/i3statusBig.sh
     font xft:Droid Sans Mono, FontAwesome 12
+    #font pango: UbuntuMono-regular 12
 
 	colors {
 		background  #222222
@@ -238,7 +239,7 @@ bar {
 
 #little bar
 bar{ 
-    output DVI-1
+    output DVI-D-1
     status_command /home/kalenpw/Documents/ShellScripts/i3statusSmall.sh
 
     tray_output none
@@ -278,7 +279,7 @@ exec_always /home/kalenpw/Documents/ShellScripts/mountFileServer.sh
 bindsym $mod+shift+x exec /home/kalenpw/Documents/ShellScripts/lock.sh
 
 #Wallpaper
-exec_always feh --bg-scale ~/Pictures/Wallpaper/Earth.jpg --bg-scale ~/Pictures/Wallpaper/Moon.jpg
+exec_always feh --bg-scale ~/Pictures/Wallpapers/earth.jpg --bg-scale ~/Pictures/Wallpapers/moon.jpg
 
 #Screen saver settings
 exec_always xset s off
@@ -288,4 +289,4 @@ exec_always xset s 0 0
 exec_always xset mouse 5/4 0
 
 #Monitor orientation
-exec_always xrandr --output DisplayPort-0 --off --output DVI-1 --mode 1920x1080 --pos 2560x0 --rotate left --output DVI-0 --mode 2560x1440 --pos 0x160 --rotate normal --output HDMI-0 --off
+exec_always xrandr --output DisplayPort-0 --off --output DVI-D-0 --mode 2560x1440 --pos 0x256 --rotate normal --output DVI-D-1 --mode 1920x1080 --pos 2560x0 --rotate left --output HDMI-A-0 --off
