@@ -279,7 +279,7 @@ exec_always /home/kalenpw/Documents/ShellScripts/mountFileServer.sh
 bindsym $mod+shift+x exec /home/kalenpw/Documents/ShellScripts/lock.sh
 
 #Wallpaper
-exec_always feh --bg-scale ~/Pictures/Wallpapers/earth.jpg --bg-scale ~/Pictures/Wallpapers/moon.jpg
+exec_always feh --bg-scale ~/Documents/DotFiles/Wallpapers/2560x1440/earth.jpg --bg-scale ~/Documents/DotFiles/Wallpapers/1080x1920/moon.jpg
 
 #Screen saver settings
 exec_always xset s off
