@@ -68,6 +68,7 @@ rofi.padding: 5
 rofi.yoffset: 0
 ! X-offset relative to location
 rofi.xoffset: 0
+rofi.show-match: false
 
 
 ! State:           'bg',           'fg',     'bgalt',        'hlbg',         'hlfg'
