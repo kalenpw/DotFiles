@@ -33,6 +33,9 @@ sudo ln -s $configDir/.xinitrc /home/kalenpw/.xinitrc
 rm /home/kalenpw/.Xresources
 sudo ln -s $configDir/.Xresources /home/kalenpw/.Xresources
 
+rm /home/kalenpw/.config/compton.conf
+sudo ln -s $configDir/compton.conf /home/kalenpw/.config/compton.conf
+
 #themes
 
 sudo rm -rf /usr/share/themes/Equilux
