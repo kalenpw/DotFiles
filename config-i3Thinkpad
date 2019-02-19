@@ -234,6 +234,9 @@ bar {
 #Lock
 bindsym $mod+shift+x exec lock.sh
 
+# check for multimonitors at work
+exec_always /home/kalenpw/Documents/ShellScripts/laptopMonitors.sh
+
 #Turn on compton
 exec_always compton
 
