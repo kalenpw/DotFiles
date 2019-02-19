@@ -1,0 +1,25 @@
+#search-query{
+    border: 1px solid #ddd !important;    
+
+}
+#search-query:focus{
+    border: 3px solid #ddd !important;    
+
+}
+
+.js-user-profile-link.account-group > .fullname{
+    color: #ccc !important;
+    
+}
+
+.nav>li>a .text{
+    color: white;
+}
+
+.nav#global-actions>li .Icon{
+    color: white;
+}
+
+.is-unread{
+    background-color: #111 !important;
+}
