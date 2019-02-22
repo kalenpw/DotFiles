@@ -1,0 +1,11 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }  
+    ],
+    "editor.fontFamily": "'Ubuntu mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.tree.indent": 20,
+    "workbench.iconTheme": "vscode-great-icons"
+}

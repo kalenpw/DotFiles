@@ -13,13 +13,15 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
-#font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
 # font pango:DejaVu Sans Mono 10
-font pango:System San Francisco Display 12
+#font pango:System San Francisco Display 12
+#font pango:NewFontTest 12
+#font pango:Free Sans 13
+font pango: Ubuntu 13
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -198,7 +200,7 @@ set $inactive-bg-color   #6D6D6D
 set $text-color          #f3f4f5
 set $inactive-text-color #ffffff
 set $urgent-bg-color     #E53935
-set $white #ffffff
+set $white               #ffffff
 # window colors
 #                       border    background  text      indicator
 client.focused          #999999   #999999     #222222   #00ff00
@@ -210,10 +212,7 @@ client.urgent           #007373   #007373     #DDDDDD   #00ff00
 bar {
     tray_output none
     status_command /home/kalenpw/Documents/ShellScripts/i3statusBig.sh
-    font xft:Droid Sans Mono, FontAwesome 12
-#	font pango:Monospace
-    #font pango:System San Francisco Display 12
-    #font Ubuntu Mono 12
+    font pango: FontAwesome 12
 	colors {
         statusline #AAAAAA
 		background #222222
@@ -227,7 +226,7 @@ bar {
 	bindsym button4 exec amixer -D pulse sset Master 5%+
 	bindsym button5 exec amixer -D pulse sset Master 5%-
 
-    #Open orage on click
+    #Open orage on right click
     bindsym button3 exec orage
 }
 
@@ -252,6 +251,7 @@ exec_always xset -dpms
 exec_always xset s 0 0 
 
 #Set capslock to ctrl
+#note also set this in /etc/default/keyboard
 exec_always setxkbmap -option caps:ctrl_modifier
 
 #Turn off bluetooth
