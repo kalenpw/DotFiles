@@ -1,5 +1,5 @@
 export PATH="/home/kalenpw/Documents/ShellScripts:$PATH"
 
-if [ -f ~/Documents/Config/.bashrc ]; then
-    . ~/Documents/Config/.bashrc
+if [ -f ~/Documents/DotFiles/.bashrc ]; then
+    . ~/Documents/DotFiles/.bashrc
 fi
