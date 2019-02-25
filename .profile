@@ -21,5 +21,6 @@ if [ -n "$DISPLAY" ]; then
     export TERM=xterm-256color
 fi
 
+. ~/.bashrc
 # set PATH so it includes user's private bin directories
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH:/home/kalenpw/Documents/ShellScripts"
