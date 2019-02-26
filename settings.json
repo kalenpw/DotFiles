@@ -48,5 +48,8 @@
         "cfml",
         "HTML (Eex)"
     ],
-    "workbench.statusBar.feedback.visible": false
+    "workbench.statusBar.feedback.visible": false,
+    "files.watcherExclude": {
+        "**/vendor/**": true
+    }
 }

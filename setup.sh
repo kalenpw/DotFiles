@@ -42,6 +42,9 @@ sudo ln -s $configDir/settings.json /home/kalenpw/.config/Code/User/settings.jso
 sudo rm /etc/i3status.conf
 sudo ln -s $configDir/i3status.conf /etc/i3status.conf
 
+rm /home/kalenpw/.vim/colors/dracula.vim
+sudo ln -s $configDir/dracula.vim /home/kalenpw/.vim/colors/dracula.vim
+
 #themes
 
 sudo rm -rf /usr/share/themes/Equilux
