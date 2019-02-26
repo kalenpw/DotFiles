@@ -44,12 +44,6 @@ sudo ln -s $configDir/settings.json /home/kalenpw/.config/Code/User/settings.jso
 sudo rm -rf /usr/share/themes/Equilux
 sudo cp -r $configDir/Themes/Equilux /usr/share/themes/
 
-sudo rm -rf /usr/share/themes/Materia-dark
-sudo cp -r $configDir/Themes/Materia-dark /usr/share/themes/
-
-sudo rm -rf /usr/share/themes/Material-Ubuntu-dark
-sudo cp -r $configDir/Themes/Material-Ubuntu-dark /usr/share/themes/
-
 sudo rm -rf /usr/share/icons/Ultra-Flat
 sudo cp -r $configDir/Ultra-Flat /usr/share/icons/
 

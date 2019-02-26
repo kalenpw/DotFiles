@@ -17,7 +17,7 @@ rofi.lines: 5
 ! Number of columns
 rofi.columns: 1
 ! Font to use
-rofi.font: San Francisco 10
+rofi.font: Ubuntu 12
 ! Foreground color
 !rofi.fg: #999999
 ! Background color
