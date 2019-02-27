@@ -45,6 +45,9 @@ sudo ln -s $configDir/i3status.conf /etc/i3status.conf
 rm /home/kalenpw/.vim/colors/dracula.vim
 sudo ln -s $configDir/dracula.vim /home/kalenpw/.vim/colors/dracula.vim
 
+rm /home/kalenpw/.config/xfce4/terminal/terminalrc
+sudo ln -s $configDir/terminalrc /home/kalenpw/.config/xfce4/terminal/terminalrc
+
 #themes
 
 sudo rm -rf /usr/share/themes/Equilux

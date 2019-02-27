@@ -27,7 +27,7 @@ font pango: Ubuntu 13
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec /home/kalenpw/Documents/ShellScripts/xfce4-term.sh
 
 # kill focused window
 bindsym $mod+Shift+q kill
