@@ -51,5 +51,6 @@
     "workbench.statusBar.feedback.visible": false,
     "files.watcherExclude": {
         "**/vendor/**": true
-    }
+    },
+    "editor.lineHeight": 25
 }
