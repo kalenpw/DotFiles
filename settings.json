@@ -1,6 +1,7 @@
 {
     "workbench.tree.indent": 20,
-    "workbench.iconTheme": "vscode-great-icons", "vim.leader": "<space>",
+    "workbench.iconTheme": "vscode-great-icons",
+    "vim.leader": "<space>",
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -51,16 +52,5 @@
     "files.watcherExclude": {
         "**/vendor/**": true
     },
-    // Defining custom colors instead of default "Rainbow" for dark backgrounds.
-  // (Sorry: Changing them needs an editor restart for now!)
-  "indentRainbow.colors": [
-    "rgba(64,64,16,0.3)",
-    "rgba(32,64,32,0.3)",
-    "rgba(64,32,64,0.3)",
-    "rgba(16,48,48,0.3)",
-    "rgba(128,32,32,0.3)"
-  ]
-
-  // The indent color if the number of spaces is not a multiple of "tabSize".
-  "indentRainbow.errorColor": "rgba(128,32,32,0.3)"
+    "editor.lineHeight": 25
 }
