@@ -30,9 +30,9 @@ MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=TRUE
 MiscNewTabAdjacent=FALSE
-FontName=Ubuntu Mono 14
+FontName=Ubuntu Mono 15
 TitleMode=TERMINAL_TITLE_REPLACE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 ScrollingUnlimited=TRUE
-ColorPalette=rgb(0,0,0);rgb(170,0,0);rgb(0,170,0);rgb(170,85,0);rgb(0,0,170);rgb(170,0,170);rgb(172,3,196);rgb(170,170,170);rgb(85,85,85);rgb(255,85,85);rgb(85,255,85);rgb(255,255,85);rgb(0,165,196);rgb(255,85,255);rgb(85,255,255);rgb(255,255,255)
+ColorPalette=rgb(0,0,0);rgb(170,0,0);rgb(0,170,0);rgb(170,85,0);rgb(0,0,170);rgb(172,82,172);rgb(26,190,61);rgb(187,187,187);rgb(85,85,85);rgb(255,85,85);rgb(85,255,85);rgb(255,255,85);rgb(97,99,99);rgb(255,85,255);rgb(85,255,255);rgb(185,185,185)
 
