@@ -6,6 +6,9 @@
 
 configDir="/home/kalenpw/Documents/DotFiles"
 
+rm /home/kalenpw/.zshrc
+sudo ln -s $configDir/.zshrc /home/kalenpw/.zshrc
+
 rm /home/kalenpw/.bash_profile
 sudo ln -s $configDir/.bash_profile /home/kalenpw/.bash_profile
 
