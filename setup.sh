@@ -42,6 +42,9 @@ sudo ln -s $configDir/compton.conf /home/kalenpw/.config/compton.conf
 rm /home/kalenpw/.config/Code/User/settings.json
 sudo ln -s $configDir/settings.json /home/kalenpw/.config/Code/User/settings.json
 
+rm /home/kalenpw/.config/Code/User/keybindings.json
+sudo ln -s $configDir/keybindings.json /home/kalenpw/.config/Code/User/keybindings.json
+
 sudo rm /etc/i3status.conf
 sudo ln -s $configDir/i3status.conf /etc/i3status.conf
 

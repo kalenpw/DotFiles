@@ -52,5 +52,6 @@
     "files.watcherExclude": {
         "**/vendor/**": true
     },
-    "editor.lineHeight": 25
+    "editor.lineHeight": 25,
+    "workbench.activityBar.visible": true
 }
