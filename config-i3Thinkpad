@@ -269,3 +269,7 @@ bindsym XF86AudioMicMute exec --no-startup-id amixer set Capture toggle
 
 #Screenshot button
 bindsym --release Print exec scrot -s '/home/kalenpw/Pictures/Screenshots/%Y-%m-%d_%s%H.png'
+
+
+floating_minimum_size 75 x 50
+floating_maximum_size 700 x 500
