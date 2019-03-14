@@ -270,6 +270,12 @@ bindsym XF86AudioMicMute exec --no-startup-id amixer set Capture toggle
 #Screenshot button
 bindsym --release Print exec scrot -s '/home/kalenpw/Pictures/Screenshots/%Y-%m-%d_%s%H.png'
 
+mode "moveit" {
+    bindsym Up move up 20px
+    bindsym Left move left 20px
+    bindsym Down move down 20px
+    bindsym Right move right 20px
+    bindsym Mod4+m mode "default"
+}
+bindsym Mod4+m focus floating; mode "moveit"
 
-floating_minimum_size 75 x 50
-floating_maximum_size 700 x 500
