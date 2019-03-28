@@ -1,0 +1,9 @@
+Host server
+    HostName kalen.pw
+    Port 23
+    User kalenpw
+
+Host desktop
+    HostName kalen.pw
+    Port 24
+    User kalenpw

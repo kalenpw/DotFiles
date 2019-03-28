@@ -13,8 +13,7 @@
             ]
         }
     ],
-    "workbench.colorTheme": "Panda Syntax",
-    "php-cs-fixer.executablePath": "/home/kalenpw/.vscode/extensions/junstyle.php-cs-fixer-0.1.96/php-cs-fixer.phar",
+    "php-cs-fixer.executablePath": "/home/kalenpw/.vscode/extensions/junstyle.php-cs-fixer-0.1.118/php-cs-fixer.phar",
     "php-cs-fixer.executablePathWindows": "", //eg: php-cs-fixer.bat
     "php-cs-fixer.onsave": true,
     "php-cs-fixer.rules": "@PSR2",
@@ -54,5 +53,14 @@
     },
     "editor.lineHeight": 25,
     "workbench.activityBar.visible": false,
-    "vetur.format.options.tabSize": 4
+    "vetur.format.options.tabSize": 4,
+
+    "telemetry.enableTelemetry": false,
+
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1A1A1A",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238"
+    }
+
 }

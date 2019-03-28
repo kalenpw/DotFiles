@@ -62,7 +62,9 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git command-not-found copyfile)
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
 
 source $ZSH/oh-my-zsh.sh
 
