@@ -57,6 +57,9 @@ sudo ln -s $configDir/terminalrc /home/kalenpw/.config/xfce4/terminal/terminalrc
 rm /home/kalenpw/.ssh/config
 sudo ln -s $configDir/config-ssh /home/kalenpw/.ssh/config
 
+sudo rm /usr/share/cmus/kalen.theme
+sudo ln -s $configDir/kalen.theme /usr/share/cmus/kalen.theme
+
 #themes
 
 sudo rm -rf /usr/share/themes/Equilux
