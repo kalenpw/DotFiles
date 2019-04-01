@@ -290,3 +290,22 @@ exec_always xset mouse 5/4 0
 
 #Monitor orientation
 exec_always xrandr --output DisplayPort-0 --off --output DVI-D-0 --mode 2560x1440 --pos 0x256 --rotate normal --output DVI-D-1 --mode 1920x1080 --pos 2560x0 --rotate left --output HDMI-A-0 --off
+
+mode "move" {
+    bindsym Up move up 20px
+    bindsym Left move left 20px
+    bindsym Down move down 20px
+    bindsym Right move right 20px
+
+    bindsym h move left 20px
+    bindsym j move down 20px
+    bindsym k move up 20px
+    bindsym l move right 20px
+
+    bindsym Mod4+m mode "default"
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
+
+bindsym Mod4+m focus floating; mode "move"
+

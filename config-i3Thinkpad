@@ -157,8 +157,6 @@ bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace0
 bindsym $mod+Shift+o move container to workspace $workspace11
 bindsym $mod+Shift+p move container to workspace $workspace12
-#Force programs to open in certain windows
-#assign [class="Rhythmbox"] workspace $workspace8
 
 hide_edge_borders both
 
@@ -167,7 +165,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Log out?' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -270,12 +268,21 @@ bindsym XF86AudioMicMute exec --no-startup-id amixer set Capture toggle
 #Screenshot button
 bindsym --release Print exec scrot -s '/home/kalenpw/Pictures/Screenshots/%Y-%m-%d_%s%H.png'
 
-mode "moveit" {
+mode "move" {
     bindsym Up move up 20px
     bindsym Left move left 20px
     bindsym Down move down 20px
     bindsym Right move right 20px
+
+    bindsym h move left 20px
+    bindsym j move down 20px
+    bindsym k move up 20px
+    bindsym l move right 20px
+
     bindsym Mod4+m mode "default"
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
 }
-bindsym Mod4+m focus floating; mode "moveit"
+
+bindsym Mod4+m focus floating; mode "move"
 
