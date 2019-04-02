@@ -48,7 +48,7 @@ set color_win_inactive_cur_sel_fg=175
 # active selection
 # the cursor when not on playing file
 set color_win_sel_bg=235
-set color_win_sel_fg=175
+set color_win_sel_fg=134
 
 # inactive selection
 # track when on artist view
