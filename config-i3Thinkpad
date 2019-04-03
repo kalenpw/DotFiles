@@ -209,7 +209,7 @@ client.urgent           #007373   #007373     #DDDDDD   #00ff00
 # bar
 bar {
     tray_output none
-    status_command /home/kalenpw/Documents/ShellScripts/i3statusBig.sh
+    status_command /home/kalenpw/Documents/ShellScripts/i3statusBig.sh truncated
     font pango: FontAwesome 12
 	colors {
         statusline #AAAAAA

@@ -59,7 +59,7 @@
         "**/vendor/**": true
     },
     "editor.lineHeight": 25,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "vetur.format.options.tabSize": 4,
 
     "telemetry.enableTelemetry": false,
