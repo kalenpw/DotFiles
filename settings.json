@@ -13,6 +13,13 @@
             ]
         }
     ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-b>": false,
+        "<C-f>": false
+    },
+
+
     "php-cs-fixer.executablePath": "/home/kalenpw/.vscode/extensions/junstyle.php-cs-fixer-0.1.118/php-cs-fixer.phar",
     "php-cs-fixer.executablePathWindows": "", //eg: php-cs-fixer.bat
     "php-cs-fixer.onsave": true,
@@ -52,7 +59,7 @@
         "**/vendor/**": true
     },
     "editor.lineHeight": 25,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "vetur.format.options.tabSize": 4,
 
     "telemetry.enableTelemetry": false,
