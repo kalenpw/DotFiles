@@ -69,5 +69,6 @@
         "statusBar.noFolderBackground" : "#212121",
         "statusBar.debuggingBackground": "#263238"
     },
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "vim.foldfix": true
 }
