@@ -60,6 +60,12 @@ sudo ln -s $configDir/config-ssh /home/kalenpw/.ssh/config
 sudo rm /usr/share/cmus/kalen.theme
 sudo ln -s $configDir/kalen.theme /usr/share/cmus/kalen.theme
 
+rm /home/kalenpw/.config/VSCodium/User/settings.json
+sudo ln -s $configDir/settings.json /home/kalenpw/.config/VSCodium/User/settings.json
+
+rm /home/kalenpw/.config/VSCodium/User/keybindings.json
+sudo ln -s $configDir/keybindings.json /home/kalenpw/.config/VSCodium/User/keybindings.json
+
 #themes
 
 sudo rm -rf /usr/share/themes/Equilux
