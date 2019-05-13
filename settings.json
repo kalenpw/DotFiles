@@ -59,7 +59,7 @@
         "**/vendor/**": true
     },
     "editor.lineHeight": 25,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "vetur.format.options.tabSize": 4,
 
     "telemetry.enableTelemetry": false,
@@ -70,5 +70,8 @@
         "statusBar.debuggingBackground": "#263238"
     },
     "workbench.editor.enablePreview": false,
-    "vim.foldfix": true
+    "vim.foldfix": true,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    }
 }
