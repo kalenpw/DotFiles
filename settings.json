@@ -73,5 +73,6 @@
     "vim.foldfix": true,
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    }
+    },
+    "php-cs-fixer.lastDownload": 1560534207501
 }
