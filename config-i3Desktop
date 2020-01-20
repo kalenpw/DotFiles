@@ -263,10 +263,10 @@ bar{
 bindsym XF86AudioMute workspace $workspace13
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 1%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 1%-
-bindsym XF86AudioNext exec --no-startup-id cmus-remote -n
-bindsym XF86AudioPrev exec --no-startup-id cmus-remote -r
-bindsym XF86AudioPlay exec --no-startup-id cmus-remote -p
-bindsym XF86AudioStop exec --no-startup-id cmus-remote -u
+bindsym XF86AudioNext exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next && cmus-remote -n 
+bindsym XF86AudioPrev exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous && cmus-remote -r
+bindsym XF86AudioPlay exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause && cmus-remote -p
+bindsym XF86AudioStop exec --no-startup-id dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause && cmus-remote -u
 bindsym XF86Tools exec --no-startup-id amixer -q -D pulse sset Master toggle 
 
 exec_always compton -b -d :0
