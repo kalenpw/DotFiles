@@ -1,14 +1,15 @@
-[{
-   "key": "ctrl+alt+b",
-   "command": "workbench.action.toggleActivityBarVisibility",
-   "when": "editorTextFocus"
-},
-{
-   "key": "ctrl+'",
-   "command": "workbench.action.terminal.toggleTerminal"
-},
-{
-   "key": "ctrl+`",
-   "command": "-workbench.action.terminal.toggleTerminal"
-},
+[
+    {
+        "key": "ctrl+'",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleActivityBarVisibility",
+        "when": "editorTextFocus"
+    }
 ]
