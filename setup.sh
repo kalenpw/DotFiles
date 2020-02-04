@@ -53,17 +53,8 @@ ln -s $configDir/.Xresources ~/.Xresources
 rm ~/.config/compton.conf
 ln -s $configDir/compton.conf ~/.config/compton.conf
 
-rm ~/.config/Code/User/settings.json
-ln -s $configDir/settings.json ~/.config/Code/User/settings.json
-
-rm ~/.config/Code/User/keybindings.json
-ln -s $configDir/keybindings.json ~/.config/Code/User/keybindings.json
-
 rm /etc/i3status.conf
 ln -s $configDir/i3status.conf /etc/i3status.conf
-
-rm ~/.vim/colors/dracula.vim
-ln -s $configDir/dracula.vim ~/.vim/colors/dracula.vim
 
 rm ~/.config/xfce4/terminal/terminalrc
 ln -s $configDir/terminalrc ~/.config/xfce4/terminal/terminalrc
@@ -74,11 +65,11 @@ ln -s $configDir/config-ssh ~/.ssh/config
 sudo rm /usr/share/cmus/kalen.theme
 sudo ln -s $configDir/kalen.theme /usr/share/cmus/kalen.theme
 
-rm ~/.config/VSCodium/User/settings.json
-ln -s $configDir/settings.json ~/.config/VSCodium/User/settings.json
-
-rm ~/.config/VSCodium/User/keybindings.json
-ln -s $configDir/keybindings.json ~/.config/VSCodium/User/keybindings.json
+# vim colorschemes
+for file in $linkDir/VimThemes/*.vim; do
+    filename=${file#$linkDir/VimThemes}
+    ln -s $file ~/.vim/colors$fileName
+done
 
 # no themes on mac :(
 if [ "$machine" == "Linux" ]; then 
@@ -87,4 +78,18 @@ if [ "$machine" == "Linux" ]; then
 
     sudo rm -rf /usr/share/icons/Ultra-Flat
     sudo cp -r $configDir/Ultra-Flat /usr/share/icons/
+
+    rm ~/.config/VSCodium/User/settings.json
+    ln -s $configDir/settings.json ~/.config/VSCodium/User/settings.json
+
+    rm ~/.config/VSCodium/User/keybindings.json
+    ln -s $configDir/keybindings.json ~/.config/VSCodium/User/keybindings.json
+
+    rm ~/.config/Code/User/settings.json
+    ln -s $configDir/settings.json ~/.config/Code/User/settings.json
+
+    rm ~/.config/Code/User/keybindings.json
+    ln -s $configDir/keybindings.json ~/.config/Code/User/keybindings.json
+elif [ "$machine" == "Mac" ]; then 
+    echo "No specific mac config yet"    
 fi
