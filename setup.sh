@@ -73,6 +73,7 @@ for file in $configDir/FishFunctions/*.fish; do
     rm ~/.config/fish/functions$filename
     ln -s $file ~/.config/fish/functions
 done
+echo "Installed fish function"
 
 # vim colorschemes
 for file in $configDir/VimThemes/*.vim; do
@@ -80,6 +81,7 @@ for file in $configDir/VimThemes/*.vim; do
     rm ~/.vim/colors$filename
     ln -s $file ~/.vim/colors$fileName
 done
+echo "Installed vim colorschemes"
 
 # no themes on mac :(
 if [ "$machine" == "Linux" ]; then 
@@ -103,3 +105,23 @@ if [ "$machine" == "Linux" ]; then
 elif [ "$machine" == "Mac" ]; then 
     echo "No specific mac config yet"    
 fi
+
+# laptop vs desktop setup
+if [ "$1" == "laptop" ]; then
+    echo "Setting up laptop \n"
+    rm ~/.config/i3/config
+    ln -s $configDir/config-i3Thinkpad ~/.config/i3/config
+
+elif [ "$1" == "desktop" ]; then
+    # overwrite with desktop one
+    echo "Setting up desktop \n"
+    sudo rm /etc/i3status.conf
+    sudo ln -s $configDir/i3status.conf-desktop /etc/i3status.conf
+
+    rm ~/.config/i3/config
+    ln -s $configDir/config-i3Desktop ~/.config/i3/config
+else
+    echo "Ran generic setup"
+    echo "You can use ./setup.sh (laptop|desktop) for specific configs"
+fi
+
