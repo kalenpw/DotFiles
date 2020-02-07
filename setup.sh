@@ -66,6 +66,14 @@ ln -s $configDir/config-ssh ~/.ssh/config
 sudo rm /usr/share/cmus/kalen.theme
 sudo ln -s $configDir/kalen.theme /usr/share/cmus/kalen.theme
 
+# fish functions
+mkdir -p ~/.config/fish/functions
+for file in $configDir/FishFunctions/*.fish; do
+    filename=${file#$configDir/FishFunctions}
+    rm ~/.config/fish/functions$filename
+    ln -s $file ~/.config/fish/functions
+done
+
 # vim colorschemes
 for file in $configDir/VimThemes/*.vim; do
     filename=${file#$configDir/VimThemes}
