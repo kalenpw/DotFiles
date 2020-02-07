@@ -11,6 +11,7 @@ then
     exit 1
 fi
 
+# eventually we can handle linux and mac setups
 unameOut="$(uname -s)"
 case "${unameOut}" in
     Linux*)     machine=Linux;;
@@ -53,8 +54,8 @@ ln -s $configDir/.Xresources ~/.Xresources
 rm ~/.config/compton.conf
 ln -s $configDir/compton.conf ~/.config/compton.conf
 
-rm /etc/i3status.conf
-ln -s $configDir/i3status.conf /etc/i3status.conf
+sudo rm /etc/i3status.conf
+sudo ln -s $configDir/i3status.conf /etc/i3status.conf
 
 rm ~/.config/xfce4/terminal/terminalrc
 ln -s $configDir/terminalrc ~/.config/xfce4/terminal/terminalrc
@@ -66,8 +67,9 @@ sudo rm /usr/share/cmus/kalen.theme
 sudo ln -s $configDir/kalen.theme /usr/share/cmus/kalen.theme
 
 # vim colorschemes
-for file in $linkDir/VimThemes/*.vim; do
-    filename=${file#$linkDir/VimThemes}
+for file in $configDir/VimThemes/*.vim; do
+    filename=${file#$configDir/VimThemes}
+    rm ~/.vim/colors$filename
     ln -s $file ~/.vim/colors$fileName
 done
 
