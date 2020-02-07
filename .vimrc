@@ -88,3 +88,6 @@ set formatoptions-=cro
 " this is a kludge to get this working
 autocmd FileType * set formatoptions-=cro
 
+" quicker typing of $
+inoremap qq $
+
