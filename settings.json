@@ -55,7 +55,7 @@
         "**/vendor/**": true
     },
     "editor.lineHeight": 25,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "vetur.format.options.tabSize": 4,
     "telemetry.enableTelemetry": false,
     "workbench.colorCustomizations": {
