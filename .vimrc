@@ -73,11 +73,12 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 abclear <buffer>
 
 "autofill templates
-augroup templates
-    autocmd!
-    autocmd BufNewFile *.html r /home/kalenpw/Documents/Templates/html
-    autocmd BufNewFile *.java r /home/kalenpw/Documents/Templates/java
-augroup END
+" I don't actually use these but kept for syntax references
+" augroup templates
+"     autocmd!
+"     autocmd BufNewFile *.html r /home/kalenpw/Documents/Templates/html
+"     autocmd BufNewFile *.java r /home/kalenpw/Documents/Templates/java
+" augroup END
 
 "mispellings
 iabbrev seperate separate
