@@ -62,6 +62,7 @@ ln -s $configDir/terminalrc ~/.config/xfce4/terminal/terminalrc
 
 rm ~/.ssh/config
 ln -s $configDir/config-ssh ~/.ssh/config
+chmod 600 ~/.ssh/config
 
 sudo rm /usr/share/cmus/kalen.theme
 sudo ln -s $configDir/kalen.theme /usr/share/cmus/kalen.theme
