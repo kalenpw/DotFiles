@@ -260,9 +260,9 @@ exec_always sudo rfkill block bluetooth
 exec_always sudo tlp start
 
 #Volume control buttons
-# bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
-# bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+
-# bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%-
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%-
 #Mic mute
 bindsym XF86AudioMicMute exec --no-startup-id amixer set Capture toggle
 
