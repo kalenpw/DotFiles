@@ -1,6 +1,5 @@
 {
     "workbench.tree.indent": 20,
-    "workbench.iconTheme": "vscode-great-icons",
     "vim.leader": "<space>",
     "vim.insertModeKeyBindings": [
         {
@@ -55,7 +54,7 @@
         "**/vendor/**": true
     },
     "editor.lineHeight": 25,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "vetur.format.options.tabSize": 4,
     "telemetry.enableTelemetry": false,
     "workbench.colorCustomizations": {
@@ -68,7 +67,7 @@
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
-    "php-cs-fixer.lastDownload": 1560534207501,
+    "php-cs-fixer.lastDownload": 1586932432711,
     "vim.useSystemClipboard": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -99,7 +98,8 @@
         },
         "css": [
             "css",
-            "scss"
+            "scss",
+            "less"
         ],
         "html": [
             "htm",
@@ -119,6 +119,8 @@
     "editor.minimap.renderCharacters": false,
     "editor.minimap.maxColumn": 60,
     "window.zoomLevel": 0,
-    "explorer.compactFolders": false
+    "explorer.compactFolders": false,
+
+    "python.autoComplete.addBrackets": true
 }
 

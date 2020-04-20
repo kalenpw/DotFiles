@@ -1,14 +1,14 @@
 Host server
-    HostName kalen.pw
+    HostName kalenpw.com
     Port 23
     User kalenpw
 
 Host desktop
-    HostName kalen.pw
+    HostName kalenpw.com
     Port 24
     User kalenpw
 
 Host do
-    HostName kalenpw.com
+    HostName kalen.pw
     Port 22
     User kalenpw
