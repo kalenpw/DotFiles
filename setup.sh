@@ -31,7 +31,7 @@ rm ~/.bashrc
 ln -s $configDir/.bashrc ~/.bashrc
 
 rm ~/.face
-ln -s $configDir/.face ~/.face
+cp $configDir/.face ~/.face
 
 rm ~/.ideavimrc
 ln -s $configDir/.ideavimrc ~/.ideavimrc
@@ -62,6 +62,7 @@ ln -s $configDir/terminalrc ~/.config/xfce4/terminal/terminalrc
 
 rm ~/.ssh/config
 ln -s $configDir/config-ssh ~/.ssh/config
+chmod 600 ~/.ssh/config
 
 sudo rm /usr/share/cmus/kalen.theme
 sudo ln -s $configDir/kalen.theme /usr/share/cmus/kalen.theme
@@ -87,9 +88,11 @@ echo "Installed vim colorschemes"
 if [ "$machine" == "Linux" ]; then 
     sudo rm -rf /usr/share/themes/Equilux
     sudo cp -r $configDir/Themes/Equilux /usr/share/themes/
+    sudo chmod -R 777 /usr/share/themes
 
     sudo rm -rf /usr/share/icons/Ultra-Flat
     sudo cp -r $configDir/Ultra-Flat /usr/share/icons/
+    sudo chmod -R 777 /usr/share/icons
 
     rm ~/.config/VSCodium/User/settings.json
     ln -s $configDir/settings.json ~/.config/VSCodium/User/settings.json
