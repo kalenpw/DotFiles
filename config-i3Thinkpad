@@ -33,9 +33,9 @@ bindsym $mod+Return exec /home/kalenpw/Documents/ShellScripts/xfce4-term.sh
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-#bindsym $mod+d exec dmenu_run
+# bindsym $mod+d exec dmenu_run
 # bindsym $mod+d exec rofi -fake-transparency -show run
-bindsym $mod+d exec ulauncher
+# bindsym $mod+d exec ulauncher
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -287,3 +287,5 @@ mode "move" {
 
 bindsym Mod4+m focus floating; mode "move"
 
+exec xfce4-panel
+exec ulauncher
