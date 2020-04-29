@@ -1,7 +1,8 @@
-#!/bin/bash
+#/bin/bash
 
 # this symlinks all our config files
 
+cd ..
 configDir=$(pwd)
 
 # not a gurantee this is being executed in right directory but should catch it most times
