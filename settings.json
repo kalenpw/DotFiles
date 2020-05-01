@@ -53,7 +53,7 @@
     "files.watcherExclude": {
         "**/vendor/**": true
     },
-    "editor.lineHeight": 25,
+    "editor.lineHeight": 23,
     "workbench.activityBar.visible": true,
     "vetur.format.options.tabSize": 4,
     "telemetry.enableTelemetry": false,
@@ -80,7 +80,7 @@
         "**/__pycache__": true,
     },
     "terminal.integrated.fontFamily": "Ubuntu mono",
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 15,
     // Needed for microsoft ai code
     "python.jediEnabled": false,
     "beautify.language": {
@@ -109,18 +109,16 @@
         // ^^ providing just an array sets the VS Code file type
     },
     "emmet.includeLanguages": {
-        "django-html": "html"
+        "django-html": "html",
+        "javascript": "javascriptreact"
     },
     "python.formatting.provider": "autopep8",
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django"
     ],
-    
     "editor.minimap.renderCharacters": false,
     "editor.minimap.maxColumn": 60,
     "window.zoomLevel": 0,
     "explorer.compactFolders": false,
-
-    "python.autoComplete.addBrackets": true
+    "python.autoComplete.addBrackets": true,
 }
-

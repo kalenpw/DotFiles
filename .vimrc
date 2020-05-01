@@ -1,16 +1,16 @@
 "filetype off before vundle
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'ternjs/tern_for_vim'
-Plugin 'shawncplus/phpcomplete.vim'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'davidhalter/jedi-vim'
-call vundle#end()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"
+"call vundle#begin()
+"Plugin 'VundleVim/Vundle.vim'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'ternjs/tern_for_vim'
+"Plugin 'shawncplus/phpcomplete.vim'
+"Plugin 'scrooloose/nerdcommenter'
+"Plugin 'ctrlpvim/ctrlp.vim'
+"Plugin 'davidhalter/jedi-vim'
+"call vundle#end()
 
 "256 color support
 set t_Co=256
@@ -41,7 +41,7 @@ let g:ycm_autotrigger = 1
 
 set number relativenumber
 imap jk <Esc>
-color dracula
+color ron
 " show existing tab with 4 spaces width
 set tabstop=4
 " when indenting with '>', use 4 spaces width
