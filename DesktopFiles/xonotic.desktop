@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Xonotic
+	Exec=/home/kalenpw/Games/Xonotic/xonotic-linux-glx.sh
+	Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/xonotic.png
+	Type=Application
+	Categories=GTK;GNOME;Games;

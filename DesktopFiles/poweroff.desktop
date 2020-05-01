@@ -1,6 +1,6 @@
 	[Desktop Entry]
 	Name=Poweroff
 	Exec=poweroff
-	Icon=/home/kalenpw/.icons/Custom/poweroff.png
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/poweroff.png
 	Type=Application
 	Categories=GTK;GNOME;

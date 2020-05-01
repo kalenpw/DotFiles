@@ -1,6 +1,6 @@
 	[Desktop Entry]
 	Name=PyCharm
 	Exec=/opt/pycharm-2019.3.3/bin/pycharm.sh
-	Icon=/home/kalenpw/.icons/Custom/pycharm.png
+	Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/pycharm.png
 	Type=Application
 	Categories=GTK;GNOME;
