@@ -67,7 +67,7 @@
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
-    "php-cs-fixer.lastDownload": 1586932432711,
+    "php-cs-fixer.lastDownload": 1588821374557,
     "vim.useSystemClipboard": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",

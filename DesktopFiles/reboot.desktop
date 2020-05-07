@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Reboot
+	Exec=reboot
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/reboot.png
+	Type=Application
+	Categories=GTK;GNOME;
