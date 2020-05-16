@@ -82,7 +82,7 @@
     "terminal.integrated.fontFamily": "Ubuntu mono",
     "terminal.integrated.fontSize": 15,
     // Needed for microsoft ai code
-    "python.jediEnabled": false,
+    // "python.jediEnabled": false,
     "beautify.language": {
         "js": {
             "type": [

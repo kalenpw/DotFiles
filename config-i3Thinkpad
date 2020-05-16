@@ -230,7 +230,7 @@ bar {
 	bindsym button5 exec amixer -D pulse sset Master 5%-
 
     #Open orage on right click
-    bindsym button3 exec orage
+    # bindsym button3 exec orage
 }
 
 # check for multimonitors at work
