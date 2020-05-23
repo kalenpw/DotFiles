@@ -121,4 +121,8 @@
     "window.zoomLevel": 0,
     "explorer.compactFolders": false,
     "python.autoComplete.addBrackets": true,
+    "explorer.confirmDelete": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
 }

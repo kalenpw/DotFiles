@@ -204,10 +204,19 @@ set $text-color          #f3f4f5
 set $inactive-text-color #ffffff
 set $urgent-bg-color     #E53935
 set $white               #ffffff
+
+set $focused-bg #777777
+set $focused-fg #111111
+
+set $blurred-bg #111111
+set $blurred-fg #777777
+
+set $indicator #00ff00
+
 # window colors
-#                       border    background  text      indicator
-client.focused          #999999   #999999     #222222   #00ff00
-client.unfocused        #222222   #222222     #999999   #00ff00
+#                       border        background    text         indicator
+client.focused          $focused-bg   $focused-bg   $focused-fg  $indicator
+client.unfocused        $blurred-bg   $blurred-bg   $blurred-fg  $indicator
 client.focused_inactive #222222   #222222     #999999   #00ff00
 client.urgent           #007373   #007373     #DDDDDD   #00ff00
 
@@ -221,7 +230,7 @@ bar {
 		background #222222
 	    separator #757575
 		#                  border   background  text
-		focused_workspace  #999999  #999999     #222222
+		focused_workspace  #777777  #777777     #222222
 		inactive_workspace #222222  #222222     #999999
 		urgent_workspace   #007373  #007373     #DDDDDD
 	}
