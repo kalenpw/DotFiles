@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Terraria
+	Exec=/home/kalenpw/Games/Terraria/start.sh
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/terraria.png
+	Type=Application
+	Categories=Game;

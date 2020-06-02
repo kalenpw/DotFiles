@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Pillars of Eternity
+	Exec=/home/kalenpw/Games/PillarsOfEternity/start.sh
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/pillars_of_eternity.png
+	Type=Application
+	Categories=GTK;GNOME;
