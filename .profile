@@ -30,3 +30,4 @@ export QT_QPA_PLATFORMTHEME=gtk2
 
 export CALIBRE_USE_SYSTEM_THEME=1
 export CALIBRE_USE_DARK_PALETTE=1
+export XDG_DATA_DIRS="/home/kalenpw/Documents/DotFiles/DesktopFiles:$XDG_DATA_DIRS"

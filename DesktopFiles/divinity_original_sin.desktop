@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Divinity Original Sin
+	Exec=/home/kalenpw/Games/DivinityOriginalSin/start.sh
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/divinity_original_sin.png
+	Type=Application
+	Categories=Game;

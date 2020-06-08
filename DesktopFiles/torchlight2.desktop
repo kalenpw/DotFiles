@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Torchlight 2
+	Exec=/home/kalenpw/Games/Torchlight2/Torchlight2.bin.x86_64
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/torchlight2.png
+	Type=Application
+	Categories=Game;
