@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Diablo II
+    Exec=wine /home/kalenpw/.wine/drive_c/Program\ Files\ \(x86\)/Diablo/Diablo\ II/Game.exe
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/diablo_2.png
+	Type=Application
+	Categories=Game;

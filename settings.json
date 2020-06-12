@@ -1,5 +1,14 @@
 {
     "workbench.tree.indent": 20,
+    "editor.formatOnPaste": true,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 15,
+    "editor.lineHeight": 28,
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "vim.leader": "<space>",
     "vim.insertModeKeyBindings": [
         {
@@ -17,6 +26,7 @@
         "<C-b>": false,
         "<C-f>": false
     },
+    "vim.foldfix": true,
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "php-cs-fixer.executablePathWindows": "", //eg: php-cs-fixer.bat
     "php-cs-fixer.onsave": true,
@@ -30,47 +40,9 @@
     "php-cs-fixer.formatHtml": false,
     "php-cs-fixer.documentFormattingProvider": true,
     "blade.format.enable": true,
-    "editor.formatOnPaste": true,
-    "auto-close-tag.activationOnLanguage": [
-        "xml",
-        "php",
-        "blade",
-        "ejs",
-        "jinja",
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-        "plaintext",
-        "markdown",
-        "vue",
-        "liquid",
-        "erb",
-        "lang-cfml",
-        "cfml",
-        "HTML (Eex)"
-    ],
     "files.watcherExclude": {
         "**/vendor/**": true
     },
-    "editor.lineHeight": 23,
-    "workbench.activityBar.visible": true,
-    "vetur.format.options.tabSize": 4,
-    "telemetry.enableTelemetry": false,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#1A1A1A",
-        "statusBar.noFolderBackground": "#212121",
-        "statusBar.debuggingBackground": "#263238"
-    },
-    "workbench.editor.enablePreview": false,
-    "vim.foldfix": true,
-    "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    },
-    "php-cs-fixer.lastDownload": 1588821374557,
-    "vim.useSystemClipboard": true,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -79,8 +51,18 @@
         "**/.DS_Store": true,
         "**/__pycache__": true,
     },
-    "terminal.integrated.fontFamily": "Ubuntu mono",
-    "terminal.integrated.fontSize": 15,
+    "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1A1A1A",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.debuggingBackground": "#263238"
+    },
+    "workbench.editor.enablePreview": false,
+    "vetur.format.options.tabSize": 4,
+    "php-cs-fixer.lastDownload": 1588821374557,
+    "vim.useSystemClipboard": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     // Needed for microsoft ai code
     // "python.jediEnabled": false,
     "beautify.language": {
@@ -120,9 +102,14 @@
     "editor.minimap.maxColumn": 60,
     "window.zoomLevel": 0,
     "explorer.compactFolders": false,
-    "python.autoComplete.addBrackets": true,
     "explorer.confirmDelete": false,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "html.format.wrapAttributes": "preserve",
+    "python.autoComplete.addBrackets": true,
+    "python.jediEnabled": false
 }
