@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Intellij
+	Exec=/opt/idea-IC/bin/idea.sh
+	Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/intellij.png
+	Type=Application
+	Categories=GTK;GNOME;

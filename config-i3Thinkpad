@@ -112,10 +112,10 @@ workspace $workspace3 output eDP-1
 workspace $workspace4 output eDP-1 
 workspace $workspace5 output eDP-1 
 workspace $workspace6 output eDP-1 
-workspace $workspace7 output HDMI2
-workspace $workspace8 output HDMI2
-workspace $workspace9 output HDMI2
-workspace $workspace0 output HDMI2
+workspace $workspace7 output HDMI-2
+workspace $workspace8 output HDMI-2
+workspace $workspace9 output HDMI-2
+workspace $workspace0 output HDMI-2
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1; exec feh --bg-fill --recursive --randomize /home/kalenpw/Pictures/Wallpapers/3840x2160/*
@@ -235,8 +235,12 @@ bar {
 		urgent_workspace   #007373  #007373     #DDDDDD
 	}
     #Adjust volume by scrolling on status bar	
-	bindsym button4 exec amixer -D pulse sset Master 5%+
-	bindsym button5 exec amixer -D pulse sset Master 5%-
+	#bindsym button4 exec amixer -D pulse sset Master 5%+
+    # pactl doesn't cause left and right to become out of sink   
+    bindsym button4 exec pactl set-sink-volume @DEFAULT_SINK@ +1%
+
+	#bindsym button5 exec amixer -D pulse sset Master 5%-
+    bindsym button5 exec pactl set-sink-volume @DEFAULT_SINK@ -1%
 
     #Open orage on right click
     # bindsym button3 exec orage

@@ -5,7 +5,7 @@
     "terminal.integrated.fontFamily": "Fira Code",
     "terminal.integrated.fontSize": 15,
     "editor.lineHeight": 28,
-    "editor.fontSize": 17,
+    "editor.fontSize": 18,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -50,6 +50,10 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/__pycache__": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
     },
     "workbench.activityBar.visible": true,
     "workbench.colorCustomizations": {
@@ -111,5 +115,7 @@
     },
     "html.format.wrapAttributes": "preserve",
     "python.autoComplete.addBrackets": true,
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "java.home": "/usr/lib/jvm/java-1.11.0-openjdk-amd64/",
+    "java.semanticHighlighting.enabled": true
 }
