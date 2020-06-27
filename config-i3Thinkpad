@@ -112,10 +112,10 @@ workspace $workspace3 output eDP-1
 workspace $workspace4 output eDP-1 
 workspace $workspace5 output eDP-1 
 workspace $workspace6 output eDP-1 
-workspace $workspace7 output HDMI-2
-workspace $workspace8 output HDMI-2
-workspace $workspace9 output HDMI-2
-workspace $workspace0 output HDMI-2
+workspace $workspace7 output DVI-I-1-1
+workspace $workspace8 output DVI-I-1-1
+workspace $workspace9 output DVI-I-1-1
+workspace $workspace0 output DVI-I-1-1
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1; exec feh --bg-fill --recursive --randomize /home/kalenpw/Pictures/Wallpapers/3840x2160/*
