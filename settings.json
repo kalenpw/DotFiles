@@ -6,7 +6,7 @@
     "terminal.integrated.fontSize": 15,
     "editor.lineHeight": 28,
     "editor.fontSize": 18,
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Fira Code Retina",
     "editor.fontLigatures": true,
     // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "vim.leader": "<space>",
@@ -18,6 +18,15 @@
             ],
             "after": [
                 "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "q",
+                "q",
+            ],
+            "after":[
+                "$"
             ]
         }
     ],
@@ -55,11 +64,15 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "workbench.colorCustomizations": {
         "statusBar.background": "#1A1A1A",
         "statusBar.noFolderBackground": "#212121",
-        "statusBar.debuggingBackground": "#263238"
+        "statusBar.debuggingBackground": "#263238",
+        "panel.background": "#1d1d1d",
+        "editorCursor.foreground": "#ccc"
+
     },
     "workbench.editor.enablePreview": false,
     "vetur.format.options.tabSize": 4,
@@ -113,10 +126,38 @@
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
+
+    "[django-html]": {
+        "editor.defaultFormatter": "HookyQR.beautify",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    },
+    
+    "prettier.jsxBracketSameLine": false,
+
     "html.format.wrapAttributes": "preserve",
     "python.autoComplete.addBrackets": true,
     "python.jediEnabled": false,
     "java.home": "/usr/lib/jvm/java-1.11.0-openjdk-amd64/",
     "java.semanticHighlighting.enabled": true,
-    "python.languageServer": "Microsoft"
+    "python.languageServer": "Microsoft",
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+
+    "indentRainbow.errorColor": "rgba(128,32,32,0.2)",
+
+    "runOnSave.commands": [
+        {
+            "match": ".*css",
+            "isAsync": true,
+            "cmd": "cd ${workspaceFolder}; combineCSSandJS.sh django"
+        }
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }

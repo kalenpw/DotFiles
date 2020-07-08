@@ -4,11 +4,40 @@
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+alt+b",
-        "command": "workbench.action.tasks.build"
-    },
-    {
         "key": "ctrl+shift+b",
         "command": "workbench.action.toggleActivityBarVisibility"
-    }
+    },
+    //////////////////
+    // Activity bar //
+    //////////////////
+    // Explorer
+    {
+        "key": "ctrl+k ctrl+e",
+        "command": "workbench.view.explorer"
+    },
+    // git
+    {
+        "key": "ctrl+k ctrl+g",
+        "command": "workbench.view.scm"
+    },
+    // debug
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "workbench.view.debug"
+    },
+    // installed extensions
+    {
+        "key": "ctrl+k ctrl+x",
+        "command": "workbench.extensions.action.showInstalledExtensions"
+    },
+    // project manager
+    {
+        "key": "ctrl+k ctrl+p",
+        "command": "workbench.view.extension.project-manager"
+    },
+    // database
+    {
+        "key": "ctrl+k ctrl+m",
+        "command": "workbench.view.extension.sqltoolsActivityBarContainer"
+    },
 ]

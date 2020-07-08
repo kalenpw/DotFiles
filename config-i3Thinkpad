@@ -237,10 +237,10 @@ bar {
     #Adjust volume by scrolling on status bar	
 	#bindsym button4 exec amixer -D pulse sset Master 5%+
     # pactl doesn't cause left and right to become out of sink   
-    bindsym button4 exec pactl set-sink-volume @DEFAULT_SINK@ +1%
+    bindsym button4 exec pactl set-sink-volume @DEFAULT_SINK@ +2%
 
 	#bindsym button5 exec amixer -D pulse sset Master 5%-
-    bindsym button5 exec pactl set-sink-volume @DEFAULT_SINK@ -1%
+    bindsym button5 exec pactl set-sink-volume @DEFAULT_SINK@ -2%
 
     #Open orage on right click
     # bindsym button3 exec orage
