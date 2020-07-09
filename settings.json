@@ -25,7 +25,7 @@
                 "q",
                 "q",
             ],
-            "after":[
+            "after": [
                 "$"
             ]
         }
@@ -72,7 +72,6 @@
         "statusBar.debuggingBackground": "#263238",
         "panel.background": "#1d1d1d",
         "editorCursor.foreground": "#ccc"
-
     },
     "workbench.editor.enablePreview": false,
     "vetur.format.options.tabSize": 4,
@@ -126,7 +125,6 @@
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
-
     "[django-html]": {
         "editor.defaultFormatter": "HookyQR.beautify",
         "editor.quickSuggestions": {
@@ -135,9 +133,7 @@
             "strings": true
         }
     },
-    
     "prettier.jsxBracketSameLine": false,
-
     "html.format.wrapAttributes": "preserve",
     "python.autoComplete.addBrackets": true,
     "python.jediEnabled": false,
@@ -147,9 +143,7 @@
     "[css]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-
     "indentRainbow.errorColor": "rgba(128,32,32,0.2)",
-
     "runOnSave.commands": [
         {
             "match": ".*css",
@@ -159,5 +153,16 @@
     ],
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    // no annoying start up page
+    "workbench.startupEditor": "none",
+    // "editor.renderControlCharacters": false,
+
+    "explorer.openEditors.visible": 0,
+    "workbench.sideBar.location": "right",
+    // don't copy if you accidentally hit ctrl-c
+    "editor.emptySelectionClipboard": false,
+    "editor.quickSuggestionsDelay": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "zenMode.fullScreen": false:
 }

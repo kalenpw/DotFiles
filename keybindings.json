@@ -1,15 +1,29 @@
 [
+    /////////////////////////
+    // Integrated terminal // 
+    /////////////////////////
     {
         "key": "ctrl+'",
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+shift+b",
-        "command": "workbench.action.toggleActivityBarVisibility"
+        "key": "ctrl+'",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
     },
+    {
+        "key": "ctrl+shift+'",
+        "command": "workbench.action.terminal.new",
+    },
+
     //////////////////
     // Activity bar //
     //////////////////
+    // Toggle visibility
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
     // Explorer
     {
         "key": "ctrl+k ctrl+e",
@@ -40,4 +54,46 @@
         "key": "ctrl+k ctrl+m",
         "command": "workbench.view.extension.sqltoolsActivityBarContainer"
     },
+    /////////////////////
+    // Project manager //
+    /////////////////////
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inProjectManagerList"
+    },
+    //////////////
+    // zen mode //
+    //////////////
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "workbench.action.toggleZenMode"
+    },
+    //////////////////
+    // focus editor //
+    //////////////////
+    {
+        "key": "ctrl+e ctrl+e",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "shift+capslock ctrl+shift+f",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new"
+    }
 ]
