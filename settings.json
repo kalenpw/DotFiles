@@ -157,12 +157,13 @@
     // no annoying start up page
     "workbench.startupEditor": "none",
     // "editor.renderControlCharacters": false,
-
     "explorer.openEditors.visible": 0,
-    "workbench.sideBar.location": "right",
     // don't copy if you accidentally hit ctrl-c
     "editor.emptySelectionClipboard": false,
     "editor.quickSuggestionsDelay": 0,
     "diffEditor.ignoreTrimWhitespace": false,
-    "zenMode.fullScreen": false:
+    "zenMode.fullScreen": false,
+    "[less]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
 }
