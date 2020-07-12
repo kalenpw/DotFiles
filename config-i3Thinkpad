@@ -246,8 +246,8 @@ bar {
     # bindsym button3 exec orage
 }
 
-# check for multimonitors at work
-exec_always /home/kalenpw/Documents/ShellScripts/laptopMonitors.sh
+# check for multimonitors, then set wallpaper 
+exec_always /home/kalenpw/Documents/ShellScripts/laptopMonitors.sh && feh --bg-fill --recursive --randomize /home/kalenpw/Pictures/Wallpapers/3840x2160/*
 
 #Turn on compton
 exec_always compton
@@ -294,7 +294,4 @@ exec_always nm-applet
 exec_always synclient MaxTapTime=0
 exec_always synclient VerTwoFingerScroll=1
 exec_always synclient PalmDetect=1
-
-#Set wallpaper
-exec_always feh --bg-fill --recursive --randomize /home/kalenpw/Pictures/Wallpapers/3840x2160/*
 
