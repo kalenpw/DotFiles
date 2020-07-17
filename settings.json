@@ -75,7 +75,7 @@
     },
     "workbench.editor.enablePreview": false,
     "vetur.format.options.tabSize": 4,
-    "php-cs-fixer.lastDownload": 1588821374557,
+    "php-cs-fixer.lastDownload": 1594947605638,
     "vim.useSystemClipboard": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -166,4 +166,5 @@
     "[less]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
+    "python.showStartPage": false,
 }
