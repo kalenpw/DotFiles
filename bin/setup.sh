@@ -56,6 +56,9 @@ ln -s $configDir/.Xresources ~/.Xresources
 rm ~/.config/compton.conf
 ln -s $configDir/compton.conf ~/.config/compton.conf
 
+sudo rm /usr/local/etc/i3blocks.conf
+sudo ln -s $configDir/i3blocks.conf /usr/local/etc/i3blocks.conf
+
 sudo rm /etc/i3status.conf
 sudo ln -s $configDir/i3status.conf /etc/i3status.conf
 
