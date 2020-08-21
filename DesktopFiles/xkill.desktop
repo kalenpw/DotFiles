@@ -1,0 +1,5 @@
+	[Desktop Entry]
+	Name=xkill
+	Exec=xkill
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/xkill.png
+	Type=Application

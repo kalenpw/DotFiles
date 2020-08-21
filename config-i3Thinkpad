@@ -283,7 +283,8 @@ bindsym XF86MonBrightnessUp exec --no-startup-id acpilight -inc 10
 bindsym XF86MonBrightnessDown exec --no-startup-id acpilight -dec 10
 
 #Screenshot button
-bindsym --release Print exec scrot -s '/home/kalenpw/Pictures/Screenshots/%Y-%m-%d_%s%H.png'
+#bindsym --release Print exec scrot -s '/home/kalenpw/Pictures/Screenshots/%Y-%m-%d_%s%H.png'
+bindsym --release Print exec /home/kalenpw/Documents/ShellScripts/screenshot.sh -s
 
 exec_always xfce4-panel
 exec_always ulauncher --hide-window

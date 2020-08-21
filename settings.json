@@ -167,4 +167,5 @@
         "editor.defaultFormatter": "HookyQR.beautify"
     },
     "python.showStartPage": false,
+    "editor.lineNumbers": "relative"
 }
