@@ -38,10 +38,10 @@ bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+#bindsym $mod+Left focus left
+#bindsym $mod+Down focus down
+#bindsym $mod+Up focus up
+#bindsym $mod+Right focus right
 
 # move focused window
 bindsym $mod+Shift+h move left
@@ -104,6 +104,7 @@ set $workspace9 "9 &#xf07b;"
 #IDE/Editor
 set $workspace0 "0 &#xf044;"
 
+set $workspacei "i"
 
 #Workspace monitors
 workspace $workspace1 output eDP-1
@@ -129,6 +130,8 @@ bindsym $mod+8 workspace $workspace8; exec feh --bg-fill --recursive --randomize
 bindsym $mod+9 workspace $workspace9; exec feh --bg-fill --recursive --randomize /home/kalenpw/Pictures/Wallpapers/3840x2160/*
 bindsym $mod+0 workspace $workspace0; exec feh --bg-fill --recursive --randomize /home/kalenpw/Pictures/Wallpapers/3840x2160/*
 
+bindsym $mod+i workspace $workspacei; exec feh --bg-fill --recursive --randomize /home/kalenpw/Pictures/Wallpapers/3840x2160/*
+
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
 bindsym $mod+Shift+2 move container to workspace $workspace2
@@ -140,6 +143,8 @@ bindsym $mod+Shift+7 move container to workspace $workspace7
 bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace0
+
+bindsym $mod+Shift+i move container to workspace $workspace0
 
 hide_edge_borders both
 
@@ -264,6 +269,10 @@ exec_always xset s 0 0
 #Set capslock to ctrl
 #note also set this in /etc/default/keyboard
 exec_always setxkbmap -option caps:ctrl_modifier
+
+# set fn + left/right to home/end
+exec_always xmodmap -e "keycode 110 = Home"
+exec_always xmodmap -e "keycode 115 = End"
 
 #Turn on TLP for battery life
 exec_always sudo tlp start

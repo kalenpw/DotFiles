@@ -75,7 +75,7 @@
     },
     "workbench.editor.enablePreview": false,
     "vetur.format.options.tabSize": 4,
-    "php-cs-fixer.lastDownload": 1594947605638,
+    "php-cs-fixer.lastDownload": 1598404292272,
     "vim.useSystemClipboard": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -108,7 +108,8 @@
     },
     "emmet.includeLanguages": {
         "django-html": "html",
-        "javascript": "javascriptreact"
+        "javascript": "javascriptreact",
+        "twig": "html"
     },
     "python.formatting.provider": "autopep8",
     "python.linting.pylintArgs": [
@@ -167,5 +168,8 @@
         "editor.defaultFormatter": "HookyQR.beautify"
     },
     "python.showStartPage": false,
-    "editor.lineNumbers": "relative"
+    "editor.lineNumbers": "relative",
+    "[scss]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    }
 }
