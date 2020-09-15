@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Reaper
+	Exec=/opt/reaper_linux_x86_64/REAPER/reaper
+	Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/reaper.png
+	Type=Application
+	Categories=GTK;GNOME;
