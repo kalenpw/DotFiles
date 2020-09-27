@@ -171,5 +171,6 @@
     "editor.lineNumbers": "relative",
     "[scss]": {
         "editor.defaultFormatter": "HookyQR.beautify"
-    }
+    },
+    "extensions.autoUpdate": false
 }

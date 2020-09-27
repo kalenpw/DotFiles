@@ -2,6 +2,7 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+# super key
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -13,8 +14,8 @@ set $mod Mod4
 # font pango:DejaVu Sans Mono 10
 #font pango:System San Francisco Display 12
 #font pango:NewFontTest 12
-font pango:Free Sans 13
 #font pango: Ubuntu 0
+font pango:Free Sans 13
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -203,27 +204,24 @@ mode "move" {
     bindsym Return mode "default"
 }
 
-set $bg-color 	         #000000
-set $inactive-bg-color   #6D6D6D
-set $text-color          #f3f4f5
-set $inactive-text-color #ffffff
-set $urgent-bg-color     #E53935
-set $white               #ffffff
+set $focused-bg #D8DEE9
+set $focused-fg #1f2229
 
-set $focused-bg #777777
-set $focused-fg #111111
-
-set $blurred-bg #111111
-set $blurred-fg #777777
+set $blurred-bg #1f2229
+set $blurred-fg #D8DEE9
 
 set $indicator #00ff00
+
+set $color-bg #8FBCBB
+set $color-fg #ECEFF4
 
 # window colors
 #                       border        background    text         indicator
 client.focused          $focused-bg   $focused-bg   $focused-fg  $indicator
 client.unfocused        $blurred-bg   $blurred-bg   $blurred-fg  $indicator
-client.focused_inactive #222222   #222222     #999999   #00ff00
-client.urgent           #007373   #007373     #DDDDDD   #00ff00
+# other monitor
+client.focused_inactive $blurred-bg   $blurred-bg   $blurred-fg  $indicator
+client.urgent           $color-bg     $color-bg     $color-fg    $indicator
 
 # bar
 bar {
@@ -233,12 +231,12 @@ bar {
     font pango: FontAwesome 12
 	colors {
         statusline #AAAAAA
-		background #222222
+		background $blurred-bg
 	    separator #757575
-		#                  border   background  text
-		focused_workspace  #777777  #777777     #222222
-		inactive_workspace #222222  #222222     #999999
-		urgent_workspace   #007373  #007373     #DDDDDD
+		#                  border       background      text
+		focused_workspace  $focused-bg  $focused-bg     $focused-fg
+		inactive_workspace $blurred-bg  $blurred-bg     $blurred-fg
+		urgent_workspace   $color-bg    $color-bg       $color-fg
 	}
     #Adjust volume by scrolling on status bar	
 	#bindsym button4 exec amixer -D pulse sset Master 5%+
