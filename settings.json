@@ -78,9 +78,6 @@
     "php-cs-fixer.lastDownload": 1600136926743,
     "vim.useSystemClipboard": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    // Needed for microsoft ai code
-    // "python.jediEnabled": false,
     "beautify.language": {
         "js": {
             "type": [
@@ -137,21 +134,10 @@
     "prettier.jsxBracketSameLine": false,
     "html.format.wrapAttributes": "preserve",
     "python.autoComplete.addBrackets": true,
-    "python.jediEnabled": false,
-    "java.home": "/usr/lib/jvm/java-1.11.0-openjdk-amd64/",
-    "java.semanticHighlighting.enabled": true,
     "python.languageServer": "Microsoft",
     "[css]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "indentRainbow.errorColor": "rgba(128,32,32,0.2)",
-    "runOnSave.commands": [
-        {
-            "match": ".*css",
-            "isAsync": true,
-            "cmd": "cd ${workspaceFolder}; combineCSSandJS.sh django"
-        }
-    ],
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -172,5 +158,11 @@
     "[scss]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "extensions.autoUpdate": false
+    "indentRainbow.errorColor": "rgba(128,32,32,0.2)",
+    "indentRainbow.colors": [
+        "rgba(136,192,208,0.07)",
+        "rgba(235,203,139,0.07)",
+        "rgba(180,142,173,0.07)",
+        "rgba(208,135,112,0.07)"
+    ]
 }
