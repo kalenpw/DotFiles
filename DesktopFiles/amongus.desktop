@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Among Us
+	Exec=wine /home/kalenpw/Games/AmongUs/Among\ Us.exe
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/amongus.png
+	Type=Application
+	Categories=Game;
