@@ -65,7 +65,7 @@
         "**/.factorypath": true
     },
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "workbench.colorCustomizations": {
         "statusBar.background": "#1A1A1A",
         "statusBar.noFolderBackground": "#212121",
@@ -136,7 +136,7 @@
     "python.autoComplete.addBrackets": true,
     "python.languageServer": "Microsoft",
     "[css]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "MikeBovenlander.formate"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -165,6 +165,5 @@
         "rgba(180,142,173,0.07)",
         "rgba(208,135,112,0.07)"
     ],
-    "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIkZGRkZGRlwiXSxcImZvcm1hdFdpZHRoXCI6XCIyNDBcIixcImNyZWF0ZVRhcmdldFwiOmZhbHNlLFwicGFnZUZvcm1hdFwiOntcInhcIjowLFwieVwiOjAsXCJ3aWR0aFwiOjg1MCxcImhlaWdodFwiOjExMDB9LFwic2VhcmNoXCI6dHJ1ZSxcInNob3dTdGFydFNjcmVlblwiOnRydWUsXCJncmlkQ29sb3JcIjpcIiNkMGQwZDBcIixcImRhcmtHcmlkQ29sb3JcIjpcIiM2ZTZlNmVcIixcImF1dG9zYXZlXCI6dHJ1ZSxcInJlc2l6ZUltYWdlc1wiOm51bGwsXCJvcGVuQ291bnRlclwiOjAsXCJ2ZXJzaW9uXCI6MTgsXCJ1bml0XCI6MSxcImlzUnVsZXJPblwiOmZhbHNlLFwidWlcIjpcIlwifSJ9",
     "workbench.iconTheme": "vscode-icons"
 }

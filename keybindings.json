@@ -15,7 +15,6 @@
         "key": "ctrl+shift+'",
         "command": "workbench.action.terminal.new",
     },
-
     //////////////////
     // Activity bar //
     //////////////////
@@ -75,5 +74,44 @@
     {
         "key": "ctrl+e ctrl+e",
         "command": "workbench.action.focusActiveEditorGroup"
+    },
+    ////////////
+    // Emmett //
+    ////////////
+    {
+        "key": "ctrl+m ctrl+w",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    },
+
+    ///////////////////////
+    // Advanced new file //
+    ///////////////////////
+    {
+        "key": "ctrl+n",
+        "command": "extension.advancedNewFile"
+    },
+
+    //////////////////
+    // Split editor //
+    //////////////////
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.moveEditorToRightGroup"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.moveEditorToLeftGroup"
+    },
+
+    //////////////////
+    // Intellisense //
+    //////////////////
+    {
+        "key": "shift+j",
+        "command": "selectNextSuggestion"
+    },
+    {
+        "key": "shift+k",
+        "command": "selectPrevSuggestion"
     },
 ]

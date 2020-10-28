@@ -65,7 +65,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git command-not-found copyfile zsh-autosuggestions)
 
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
 source $ZSH/oh-my-zsh.sh
 
