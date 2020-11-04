@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=World of Warcraft
+    Exec=wine /home/kalenpw/.wine/drive_c/Games/Elysium\ Project\ Game\ Client/WoW.exe
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/wow.png
+	Type=Application
+	Categories=Game;

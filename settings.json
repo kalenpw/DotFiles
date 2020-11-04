@@ -106,7 +106,7 @@
     "emmet.includeLanguages": {
         "django-html": "html",
         "javascript": "javascriptreact",
-        "twig": "html"
+        "twig": "html",
     },
     "python.formatting.provider": "autopep8",
     "python.linting.pylintArgs": [

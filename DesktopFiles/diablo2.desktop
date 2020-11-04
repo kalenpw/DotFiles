@@ -1,6 +1,8 @@
 	[Desktop Entry]
 	Name=Diablo II
-    Exec=wine /home/kalenpw/.wine/drive_c/Program\ Files\ \(x86\)/Diablo/Diablo\ II/Game.exe
+    Exec=env WINEPREFIX="/home/kalenpw/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/kalenpw/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/Diablo\\ II/Diablo\\ II\\ -\\ Lord\\ of\\ Destruction.lnk
     Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/diablo_2.png
+Comment=Click here to play Diablo II - Lord of Destruction.
+Path=/home/kalenpw/.wine/dosdevices/z:/home/kalenpw/Games/Diablo2/Diablo II/
 	Type=Application
 	Categories=Game;
