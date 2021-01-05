@@ -111,7 +111,7 @@
         "command": "selectNextSuggestion"
     },
     {
-        "key": "shift+k",
+        "key": "alt+k",
         "command": "selectPrevSuggestion"
     },
 ]

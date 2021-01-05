@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Runescape
+	Exec=java -jar /home/kalenpw/Games/Runescape/RuneLite.jar
+	Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/vscape.png
+	Type=Application
+	Categories=GTK;GNOME;Games;
