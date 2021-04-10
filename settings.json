@@ -70,7 +70,8 @@
         "statusBar.noFolderBackground": "#212121",
         "statusBar.debuggingBackground": "#263238",
         "panel.background": "#1d1d1d",
-        "editorCursor.foreground": "#ccc"
+        "editorCursor.foreground": "#ccc",
+        "minimap.background": "#22222233"
     },
     "workbench.editor.enablePreview": false,
     "vetur.format.options.tabSize": 4,
@@ -150,19 +151,19 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "zenMode.fullScreen": false,
     "[less]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "MikeBovenlander.formate"
     },
     "python.showStartPage": false,
     "editor.lineNumbers": "relative",
     "[scss]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "indentRainbow.errorColor": "rgba(128,32,32,0.2)",
+    "indentRainbow.errorColor": "rgba(40,0,0,0.04)",
     "indentRainbow.colors": [
-        "rgba(136,192,208,0.07)",
-        "rgba(235,203,139,0.07)",
-        "rgba(180,142,173,0.07)",
-        "rgba(208,135,112,0.07)"
+        "rgba(136,192,208,0.06)",
+        "rgba(235,203,139,0.06)",
+        "rgba(180,142,173,0.06)",
+        "rgba(208,135,112,0.06)"
     ],
     "workbench.iconTheme": "vscode-icons",
     "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWxcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6ODUwLFwiaGVpZ2h0XCI6MTEwMH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
@@ -174,5 +175,11 @@
         }
     ],
     "python.analysis.completeFunctionParens": true,
-    
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+
 }
