@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Flare
+    Exec=/home/kalenpw/Games/Flare/flare-v1.11/flare.sh
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/flare.png
+	Type=Application
+	Categories=Game;

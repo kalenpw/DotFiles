@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Godot
+    Exec=/opt/Godot_v3.3.2-stable_x11.64
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/godot.png
+	Type=Application
+	Categories=Application;

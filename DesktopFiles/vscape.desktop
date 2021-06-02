@@ -1,6 +1,6 @@
 	[Desktop Entry]
 	Name=Vscape
-	Exec=java -jar /home/kalenpw/Games/Vscape/vidyascape.jar
+	Exec=java -jar /home/kalenpw/Games/Vscape/vidyascape_launcher.jar
 	Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/vscape.png
 	Type=Application
 	Categories=GTK;GNOME;Games;

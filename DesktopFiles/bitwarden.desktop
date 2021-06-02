@@ -1,0 +1,6 @@
+	[Desktop Entry]
+	Name=Bitwarden
+	Exec=/opt/Bitwarden-1.25.1-x86_64.AppImage
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/bitwarden.png
+	Type=Application
+	Categories=GTK;GNOME;

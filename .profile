@@ -26,7 +26,7 @@ fi
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH:/home/kalenpw/Documents/ShellScripts"
 
 # dark theme for qt apps
-export QT_QPA_PLATFORMTHEME=gtk2
+#export QT_QPA_PLATFORMTHEME=gtk2
 
 export CALIBRE_USE_SYSTEM_THEME=1
 export CALIBRE_USE_DARK_PALETTE=1

@@ -1,0 +1,5 @@
+	[Desktop Entry]
+	Name=Anki
+	Exec=anki
+    Icon=/home/kalenpw/Documents/DotFiles/CustomIcons/anki.png
+	Type=Application

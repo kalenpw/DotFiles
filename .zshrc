@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOME/Documents/shellscripts:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/Documents/ShellSripts:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
   export ZSH="/home/kalenpw/.oh-my-zsh"
@@ -107,6 +107,5 @@ function mkcd(){
 
 
 # cd alias
-alias cdwork="cd /home/kalenpw/Documents/Work/"
-alias cdschool="cd /home/kalenpw/Documents/School/2019Spring"
+alias proj='cd /home/kalenpw/Documents/Projects'
 
